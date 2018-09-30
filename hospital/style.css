@@ -1,0 +1,42 @@
+body {
+	margin:  0;
+	padding: 0;
+}
+
+nav{
+	background-color: white;
+	border-bottom: 1px black solid;
+	height: 50px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+
+}
+nav > div {
+	float: left;
+	height: 100%;
+}
+.nav_logo{
+	width: 10%;
+}
+.nav_menu{
+	width: 70%;
+}
+.nav_search{
+	width: 20%;
+}
+header{
+	height: 600px;
+	background-color: #BDF5BA;
+	border-bottom: 1px black solid;
+}
+article{
+	height: 800px;
+	border-bottom: 1px black solid;
+	background-color: #D7F2EE;
+
+}
+footer{
+	height: 200px;
+	background-color: black;
+}
