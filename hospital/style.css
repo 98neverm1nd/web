@@ -1,42 +1,80 @@
 body {
 	margin:  0;
 	padding: 0;
+	font-family: 'Bai Jamjuree', sans-serif;
+
 }
 
 nav{
-	background-color: white;
-	border-bottom: 1px black solid;
+	background-color:#153558;
+	border-bottom: 1px white solid;
 	height: 50px;
 	width: 100%;
 	position: fixed;
 	top: 0;
-
+	display: flex;
+	z-index: 100;
 }
 nav > div {
-	float: left;
 	height: 100%;
 }
 .nav_logo{
 	width: 10%;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+.nav_logo>button{
+	border:none;
+	background-color:#153558;
+	background-image: url(img/logo.png);
+	background-size:cover;
+	width: 37px;
+	height: 33px;
 }
 .nav_menu{
-	width: 70%;
+	width: 80%;
+	display:flex;
+}
+
+.nav_menu>button{
+	border: none;
+	background-color:#153558;
+	color: white;
+	font-size: 20px;
+	width: 25%;
 }
 .nav_search{
-	width: 20%;
+	width: 10%;
 }
-header{
-	height: 600px;
-	background-color: #BDF5BA;
+header {
+	min-height: 650px;
+	background-image: url("img/header.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
 	border-bottom: 1px black solid;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 10;
 }
 article{
-	height: 800px;
+	min-height: 800px;
 	border-bottom: 1px black solid;
 	background-color: #D7F2EE;
 
 }
 footer{
-	height: 200px;
+	min-height: 200px;
 	background-color: black;
+}
+#header-block{
+	width: 100%;
+	background-color: black;
+	opacity: 0.8;
+	z-index: 20;
+	color: white;
+	text-align: center;
+	font-size: 60px;
 }
