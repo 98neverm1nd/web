@@ -1,0 +1,131 @@
+body {
+	margin:  0;
+	padding: 0;
+	font-family: 'Bai Jamjuree', sans-serif;
+
+}
+nav{
+	background-color: rgba(0,0,0,0.8);
+	border-bottom: 1px white solid;
+	height: 50px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	display: flex;
+	z-index: 100;
+}
+nav > div {
+	height: 100%;
+}
+button{
+	border:none;
+	background-color:rgba(0,0,0,0);
+	background-size:cover;
+	width: 50px;
+	height: 45px;
+}
+.nav_logo, .nav_search{
+	width: 5%;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+.nav_logo>button{
+	background-image: url(img/logo.png);
+}
+.nav_search>button{
+	background-image: url(img/search.png);
+}
+.nav_logo>button:active, .nav_search>button:active{
+	width:40px;
+	height:37px;
+}
+.nav_menu{
+	width: 90%;
+	display:flex;
+}
+
+.nav_menu>button{
+	border: none;
+	background-color: rgba(0,0,0,0);
+	color: white;
+	font-size: 20px;
+	width: 25%;
+}
+.nav_menu>button:hover{
+	background-color: rgba(0,0,0,0.5);
+	opacity: 0.8;
+}
+.nav_menu>button:active{
+	background-color: rgba(0,0,0,1);
+}
+header {
+	min-height: 650px;
+	height: 100%;
+	background-image: url("img/header.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	border-bottom: 1px black solid;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 10;
+}
+article{
+	min-height: 1800px;
+	border-bottom: 1px black solid;
+	background-color: white;
+} 
+footer{     
+	min-height: 100px;     
+	background-color: black; 
+	display: flex;
+} 
+#header-block{
+	width: 100%;     
+	background-color: black;     
+	background-color:rgba(0,0,0,0.4);     
+	z-index: 20;     
+	color: white;     
+	text-align: center;
+	font-size: 60px; 
+} 
+#nav_name{     
+	color: white;     
+	font-size: 20px;      
+}
+#map{
+	margin: 1%;
+}
+.footer_text{
+	color:white;
+	font-size:36px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.icons>a>img{
+	width:60%;
+}
+.icons{
+	display: flex;
+	margin:1%;
+}
+.content_block{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width:100%;
+	margin-bottom: 10%;
+}
+.content_block>div{
+	margin: 2%;
+	width:50%;
+	font-size:20px;
+	text-align: center;
+
+}
+#cardiology{
+	border-radius:10%;
+}
